@@ -39,7 +39,7 @@ resource "google_compute_instance" "compute_instances" {
     }
   }
 
-  metadata_startup_script = var.instance_startup_script
+  metadata_startup_script = var.startup_script
 }
 
 resource "google_compute_firewall" "allow_postgres" {
