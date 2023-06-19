@@ -15,4 +15,4 @@ instance_tags         = ["allow-postgres"]
 source_ranges         = ["0.0.0.0/0"]
 source_tags           = ["allow-postgres"]
 target_tags           = ["allow-postgres", "allow-http", "allow-https"]
-
+startup_script        = "./pgbouncer.sh"
